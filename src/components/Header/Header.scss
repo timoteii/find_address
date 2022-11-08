@@ -1,0 +1,65 @@
+
+
+
+.navmain{
+  width: 100%;
+  max-width: 1440px;
+  height: 80px;
+  top: 0px;
+  position: fixed;
+  background: #4f27bf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.header__img {
+  width: 48px;
+  height: 48px;
+  margin-left: 32px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 24px;
+}
+
+span {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 28px 0px;
+}
+
+.header__name {
+  margin: 28px 0;
+  margin-left: -8px;
+  margin-right: 3px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.header__surname {
+  margin-top: 28px;
+  margin-bottom: 28px;
+  margin-right: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
